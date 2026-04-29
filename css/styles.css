@@ -1,0 +1,25 @@
+@import './reset.css';
+@import './layout.css';
+
+@import './pages/index.css';
+@import './pages/friends.css';
+@import './pages/chats.css';
+
+:root {
+  --yellow: #fae100;
+}
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 5px 10px;
+}
