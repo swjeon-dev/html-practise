@@ -4,6 +4,10 @@
 @import './pages/index.css';
 @import './pages/friends.css';
 @import './pages/chats.css';
+@import './pages/chat.css';
+@import './pages/more.css';
+@import './pages/settings.css';
+@import './pages/find.css';
 
 :root {
   --yellow: #fae100;
@@ -21,5 +25,5 @@ h1 {
 body {
   width: 100vw;
   height: 100vh;
-  padding: 5px 10px;
+  padding: 5px 0;
 }

@@ -1,0 +1,145 @@
+.find {
+  padding: 0 20px;
+}
+.find-header {
+  margin: 30px 0 50px;
+  padding: 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.find-header__icons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.find-header__icons a:last-child {
+  position: relative;
+}
+.find-header__icons a:last-child div {
+  position: absolute;
+  background-color: red;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  top: -10px;
+  right: -10px;
+}
+
+.find__utils {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(210, 210, 210);
+  padding-bottom: 20px;
+}
+.find__utils__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.find__utils__item .name {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.recommend {
+  margin-top: 30px;
+  color: rgb(120, 120, 120);
+}
+.recommend__title {
+  font-size: 1.4rem;
+}
+.recommend__contents {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgb(210, 210, 210);
+}
+.recommend__contents--empty {
+  font-size: 1.4rem;
+}
+
+.openchat {
+  margin-top: 30px;
+  height: 500px;
+}
+.openchat__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.openchat__header__title {
+  font-size: 1.4rem;
+  color: rgb(120, 120, 120);
+}
+.openchat__header__link {
+  font-size: 1.3rem;
+  color: rgb(150, 150, 150);
+}
+.openchat__list {
+  display: flex;
+  flex-direction: column;
+}
+.openchat__item {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid rgb(240, 240, 240);
+}
+.openchat__item__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 8px;
+  padding-bottom: 10px;
+}
+.tag--highlight {
+  font-size: 1.2rem;
+}
+.tags {
+  font-size: 1.2rem;
+  color: rgb(150, 150, 150);
+}
+.openchat__item__info {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  /* flex-direction: column; */
+}
+.member__cnt {
+  color: rgb(150, 150, 150);
+}
+.isActive {
+  color: red;
+}
+.openchat__item__info img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.openchat__item__img-container img {
+  width: 130px;
+  height: 130px;
+  border-radius: 10px;
+}
+
+.openchat__item__img-container {
+  position: relative;
+}
+.like-container {
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background-color: rgba(50, 50, 50, 0.7);
+  padding: 5px 10px;
+  color: white;
+  border-radius: 15px;
+}

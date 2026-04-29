@@ -1,3 +1,6 @@
+#friends {
+  padding: 0 10px;
+}
 .friends-header {
   display: flex;
   justify-content: space-between;

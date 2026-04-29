@@ -1,18 +1,6 @@
-.app-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+#index {
+  padding: 0 10px;
 }
-.app-header__col {
-  display: flex;
-  align-items: center;
-  column-gap: 5px;
-}
-.app-header__col .time {
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-
 .login-section {
   margin-top: 100px;
 }
